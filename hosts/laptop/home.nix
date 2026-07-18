@@ -6,6 +6,7 @@
 
   imports = [
     ../../modules/apps/git.nix
+    ../../modules/apps/kitty.nix
     ../../modules/apps/vscode.nix
     ../../modules/dev/cpp.nix
     ../../modules/dev/dotnet.nix
@@ -13,6 +14,5 @@
 
   home.packages = with pkgs; [
     firefox
-    alacritty
   ];
 }
