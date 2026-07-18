@@ -6,6 +6,10 @@
   home.homeDirectory = "/home/adam";
   home.stateVersion = "26.05";
 
+  imports = [
+    ../../modules/apps/git.nix
+  ];
+
   # User-Specific Desktop Applications & Toolchains
   home.packages = with pkgs; [
     firefox
@@ -24,20 +28,6 @@
   # Environment Variables
   home.sessionVariables = {
     DOTNET_ROOT = "${pkgs.dotnetCorePackages.sdk_10_0}";
-  };
-
-  # Git Configuration
-  programs.git = {
-    enable = true;
-    extraConfig = {
-      user = {
-        name = "Adam Young";
-        email = "adamyoung1414@gmail.com";
-      };
-      init = {
-        defaultBranch = "main";
-      };
-    };
   };
 
   # VSCode Configuration
