@@ -3,6 +3,7 @@
 {
   imports = [
     ./hardware-configuration.nix
+    ../../modules/desktop/plasma.nix
   ];
 
   boot.loader.systemd-boot.enable = true;
@@ -16,13 +17,6 @@
   hardware.bluetooth.powerOnBoot = true;
 
   time.timeZone = "America/Chicago";
-
-  services.desktopManager.plasma6.enable = true;
-  services.displayManager.sddm = {
-    enable = true;
-    wayland.enable = true;
-    theme = "breeze";
-  };
 
   users.users.adam = {
     isNormalUser = true;
