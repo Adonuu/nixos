@@ -4,6 +4,7 @@
   imports = [
     ./hardware-configuration.nix
     ../../modules/desktop/plasma.nix
+    ../../modules/core/maintenance.nix
   ];
 
   boot.loader.systemd-boot.enable = true;
@@ -35,8 +36,6 @@
   ];
 
   nixpkgs.config.allowUnfree = true;
-
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   services.xserver.videoDrivers = [ "nvidia" ];
   hardware.graphics.enable = true;
