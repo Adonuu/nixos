@@ -7,6 +7,7 @@
     ../../modules/desktop/hyprland.nix
     ../../modules/desktop/sddm.nix
     ../../modules/core/maintenance.nix
+    ../../modules/core/ssh.nix
   ];
 
   boot.loader.systemd-boot.enable = true;
