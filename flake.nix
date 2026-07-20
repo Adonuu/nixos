@@ -25,6 +25,7 @@
           home-manager = {
             useGlobalPkgs = true;
             useUserPackages = true;
+	          extraSpecialArgs = { inherit inputs; };
             users.adam = import ./hosts/laptop/home.nix;
             backupFileExtension = "backup";
           };
