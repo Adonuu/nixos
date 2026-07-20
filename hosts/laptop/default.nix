@@ -5,6 +5,7 @@
     ./hardware-configuration.nix
     ../../modules/desktop/plasma.nix
     ../../modules/desktop/hyprland.nix
+    ../../modules/desktop/noctalia.nix
     ../../modules/desktop/sddm.nix
     ../../modules/core/maintenance.nix
     ../../modules/core/ssh.nix
