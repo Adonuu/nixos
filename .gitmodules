@@ -1,3 +1,6 @@
 [submodule "config/hypr"]
 	path = config/hypr
 	url = git@github.com:Adonuu/hyprland.git
+[submodule "config/noctalia"]
+	path = config/noctalia
+	url = git@github.com:Adonuu/noctalia.git

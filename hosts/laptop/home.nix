@@ -10,6 +10,7 @@
     ../../modules/apps/parsec.nix
     ../../modules/apps/vscode.nix
     ../../modules/desktop/hyprland-home.nix
+    ../../modules/desktop/noctalia-home.nix
     ../../modules/dev/cpp.nix
     ../../modules/dev/dotnet.nix
   ];
