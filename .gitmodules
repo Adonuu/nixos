@@ -4,3 +4,6 @@
 [submodule "config/noctalia"]
 	path = config/noctalia
 	url = git@github.com:Adonuu/noctalia.git
+[submodule "config/kitty"]
+	path = config/kitty
+	url = git@github.com:Adonuu/kitty.git
