@@ -42,6 +42,8 @@
 
   services.libinput.enable = true;
 
+  security.polkit.enable = true;
+
   services.xserver.videoDrivers = [ "nvidia" ];
   hardware.graphics.enable = true;
 
