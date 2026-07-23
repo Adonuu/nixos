@@ -9,5 +9,6 @@
     hyprlock
     hypridle
     hyprpicker
+    kdePackages.breeze
   ];
 }
