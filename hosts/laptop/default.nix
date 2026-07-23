@@ -3,10 +3,9 @@
 {
   imports = [
     ./hardware-configuration.nix
-    ../../modules/desktop/plasma.nix
+    ../../modules/desktop/greetd.nix
     ../../modules/desktop/hyprland.nix
     ../../modules/desktop/noctalia.nix
-    ../../modules/desktop/sddm.nix
     ../../modules/core/maintenance.nix
     ../../modules/core/ssh.nix
   ];
@@ -40,6 +39,8 @@
   ];
 
   nixpkgs.config.allowUnfree = true;
+
+  services.libinput.enable = true;
 
   services.xserver.videoDrivers = [ "nvidia" ];
   hardware.graphics.enable = true;
