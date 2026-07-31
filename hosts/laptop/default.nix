@@ -43,6 +43,8 @@
   services.libinput.enable = true;
 
   security.polkit.enable = true;
+  services.gnome.gnome-keyring.enable = true;
+  services.gnome.gcr-ssh-agent.enable = false;
 
   services.xserver.videoDrivers = [ "nvidia" ];
   hardware.graphics.enable = true;
