@@ -7,7 +7,6 @@
   imports = [
     ../../modules/apps/git.nix
     ../../modules/apps/kitty.nix
-    ../../modules/apps/parsec.nix
     ../../modules/apps/vscode.nix
     ../../modules/desktop/hyprland-home.nix
     ../../modules/desktop/noctalia-home.nix
