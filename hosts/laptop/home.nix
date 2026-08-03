@@ -5,8 +5,10 @@
   home.stateVersion = "26.05";
 
   imports = [
+    ../../modules/apps/discord.nix
     ../../modules/apps/git.nix
     ../../modules/apps/kitty.nix
+    ../../modules/apps/spotify.nix
     ../../modules/apps/vscode.nix
     ../../modules/desktop/hyprland-home.nix
     ../../modules/desktop/noctalia-home.nix
