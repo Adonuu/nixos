@@ -14,6 +14,7 @@
     ../../modules/desktop/noctalia-home.nix
     ../../modules/dev/cpp.nix
     ../../modules/dev/dotnet.nix
+    ../../modules/dev/opencode.nix
   ];
 
   home.packages = with pkgs; [
