@@ -40,6 +40,8 @@
 
   nixpkgs.config.allowUnfree = true;
 
+  programs.nix-ld.enable = true;
+
   services.libinput.enable = true;
 
   security.polkit.enable = true;
