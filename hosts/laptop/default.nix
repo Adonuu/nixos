@@ -3,6 +3,7 @@
 {
   imports = [
     ./hardware-configuration.nix
+    ../../modules/apps/gaming.nix
     ../../modules/desktop/greetd.nix
     ../../modules/desktop/hyprland.nix
     ../../modules/desktop/noctalia.nix

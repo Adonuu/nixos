@@ -6,6 +6,7 @@
 
   imports = [
     ../../modules/apps/discord.nix
+    ../../modules/apps/gaming-home.nix
     ../../modules/apps/git.nix
     ../../modules/apps/kitty.nix
     ../../modules/apps/spotify.nix
