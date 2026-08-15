@@ -11,6 +11,7 @@
     ../../modules/apps/kitty.nix
     ../../modules/apps/spotify.nix
     ../../modules/apps/vscode.nix
+    ../../modules/apps/zen-browser.nix
     ../../modules/desktop/hyprland-home.nix
     ../../modules/desktop/noctalia-home.nix
     ../../modules/dev/cpp.nix
@@ -21,7 +22,6 @@
   ];
 
   home.packages = with pkgs; [
-    firefox
     brightnessctl
   ];
 }
