@@ -7,6 +7,7 @@
     ../../modules/desktop/greetd.nix
     ../../modules/desktop/hyprland.nix
     ../../modules/desktop/noctalia.nix
+    ../../modules/core/docker.nix
     ../../modules/core/maintenance.nix
     ../../modules/core/ssh.nix
   ];
@@ -25,7 +26,7 @@
 
   users.users.adam = {
     isNormalUser = true;
-    extraGroups = [ "wheel" ];
+    extraGroups = [ "wheel" "docker" ];
   };
 
   fonts.packages = with pkgs; [
